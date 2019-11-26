@@ -72,6 +72,7 @@ def search_binary(arr1, a2i):
             left = index + 1
         else:
             break
+    # из-за непоняток с индексом приходится вводить дополнительно 2 очень сложные функции
     delta, delta_minus, delta_plus = get_deltas(arr1, 0, len(arr1) - 1, index, a2i)
     return match(arr1=arr1, index=index, delta=delta, delta_minus=delta_minus, delta_plus=delta_plus)
 
