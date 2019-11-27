@@ -14,7 +14,7 @@ def solution(l, pos, num_):
 
 
 def solution2(l, pos, num_):
-    l.insert(pos - 1, num)
+    l.insert(pos - 1, num_)
     print_list(l)
 
 
